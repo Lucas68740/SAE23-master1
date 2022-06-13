@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block content %}
+    <meta charset="UTF-8">
+    <title>formulaire de saisie</title>
+</head>
+<body>
+    <h1> Saisie d'une nouvelle musique </h1>
+<div class="form-mus">
+    <form method="POST" action="">
+            {%csrf_token %}
+            {{form.as_ul}}
+        <div class="but">
+            <input class="btn btn-success" type="submit" value="Valider"/>
+        </div>
+    </form>
+    </div>
+</body>
+{% endblock %}

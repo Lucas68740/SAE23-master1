@@ -1,0 +1,19 @@
+{% extends "Films_MCU/main.html" %}
+{% block title %}
+FilmsMcu - Ajouter Categorie
+{% endblock %}
+{% block content %}
+ <div class="conteneur">
+  {% if id != "" %}
+        <h2>Modifier une Categorie</h2>
+        <form method="post" action="/Films_MCU/traitementupdate3/{{id}}/">
+  {% else %}
+        <h2>Ajouter une Categorie</h2>
+        <form method="post" action="/Films_MCU/traitement3/">
+  {% endif %}
+      {% csrf_token %}
+      {{ form.as_ul }}
+      <input type="submit" value="CONFIRMER">
+  </form>
+ </div>
+{% endblock %}
