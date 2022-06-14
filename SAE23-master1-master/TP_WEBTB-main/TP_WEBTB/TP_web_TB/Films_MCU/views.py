@@ -159,7 +159,7 @@ def update3(request,id):
     form = SuperheroForm(superhero.dico())
     return render(request,"Films_MCU/formu3.html",{"form": form,"id":id})
 
-def traitementupdate3(request, id):
+def traitementupdate3(request):
     form = SuperheroForm(request.POST,request.FILES)
     if form.is_valid():
         superhero = form.save(commit=False)
