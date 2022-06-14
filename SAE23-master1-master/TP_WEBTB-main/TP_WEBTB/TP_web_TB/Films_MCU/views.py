@@ -2,7 +2,8 @@ from django.shortcuts import render
 from django.http import HttpResponseRedirect
 from . import models
 from .forms import FilmsForm
-from .forms import SuperheroForm
+from .forms import SuperheroForm, CategoriesForm
+from .models import Categoriesfilms
 
 # Create your views here.
 
@@ -111,8 +112,20 @@ def delete2(request, id):
     superhero.delete()
     return HttpResponseRedirect("/Films_MCU/home")
 
+
 def categorie(request):
-    return render(request,"Films_MCU/categorie.html")
+    submitted = False
+    if request.method == "POST":
+        form = CategoriesForm(request.POST, request.FILES)
+        if form.is_valid():
+            form.save()
+            return HttpResponseRedirect("/")
+    else:
+        form = CategoriesForm()
+        if 'submitted' in request.GET:
+            submitted = True
+
+    return render(request, 'Films_MCU/categorie.html', {'form': form})
 
 
 def ajout3(request):
