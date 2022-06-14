@@ -27,7 +27,7 @@ class SuperheroForm(ModelForm):
             'description':_('Description sur cette acteur:')
         }
 
-class CategorieForm(ModelForm):
+class CategoriesForm(ModelForm):
     class Meta:
         model = models.Categoriesfilms
         fields = ('nom', 'descriptif')
