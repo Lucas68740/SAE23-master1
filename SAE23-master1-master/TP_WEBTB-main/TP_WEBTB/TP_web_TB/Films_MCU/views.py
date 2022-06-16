@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponseRedirect
 from . import models
 from .forms import FilmsForm
-from .forms import SuperheroForm, CategoriesfilmsForm
+from .forms import SuperheroForm, CategoriesForm
 from .models import Categoriesfilms
 
 # Create your views here.
@@ -21,7 +21,7 @@ def ajout(request):
             return HttpResponseRedirect("/Films_MCU/")
         else:
             return render(request,"Films_MCU/home.html",{"form": form})
-    else:
+    else :
         form = FilmsForm()
         id = ""
         return render(request,"Films_MCU/formu.html",{"form" : form, "id" : id})
@@ -29,10 +29,11 @@ def ajout(request):
 def traitement(request):
     form = FilmsForm(request.POST,request.FILES)
     if form.is_valid():
-        film = form.save()
+        film = form.save(commit=False)
         return HttpResponseRedirect("/Films_MCU/home")
     else:
         return render(request,"Films_MCU/formu.html",{"form": form})
+
 def affiche(request,id):
     film = models.Films.objects.get(pk=id)
     return render(request,"Films_MCU/affiche.html",{"film": film})
@@ -71,7 +72,7 @@ def ajout2(request):
             return HttpResponseRedirect("/Films_MCU/")
         else:
             return render(request,"Films_MCU/home.html",{"form": form})
-    else:
+    else :
         form = SuperheroForm()
         id = ""
         return render(request,"Films_MCU/formu2.html",{"form" : form, "id" : id})
@@ -115,17 +116,16 @@ def delete2(request, id):
 def categorie(request):
     submitted = False
     if request.method == "POST":
-        form = CategoriesfilmsForm(request.POST, request.FILES)
+        form = CategoriesForm(request.POST, request.FILES)
         if form.is_valid():
             form.save()
             return HttpResponseRedirect("/")
     else:
-        form = CategoriesfilmsForm()
+        form = CategoriesForm()
         if 'submitted' in request.GET:
             submitted = True
 
     return render(request, 'Films_MCU/categorie.html', {'form': form})
-
 
 
 def ajout3(request):

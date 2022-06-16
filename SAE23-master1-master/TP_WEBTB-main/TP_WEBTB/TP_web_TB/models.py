@@ -15,6 +15,10 @@ class FilmsMcuFilms(models.Model):
     superhero = models.ForeignKey('FilmsMcuSuperhero', models.DO_NOTHING, blank=True, null=True)
     date = models.DateField()
 
+    class Meta:
+        managed = False
+        db_table = 'Films_MCU_films'
+
 
 class FilmsMcuSuperhero(models.Model):
     nom = models.CharField(max_length=100)
@@ -28,7 +32,7 @@ class FilmsMcuSuperhero(models.Model):
         managed = False
         db_table = 'Films_MCU_superhero'
 
-
+class Categor
 class AuthGroup(models.Model):
     name = models.CharField(unique=True, max_length=150)
 
