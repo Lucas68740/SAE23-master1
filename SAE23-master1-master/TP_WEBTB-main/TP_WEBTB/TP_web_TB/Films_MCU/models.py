@@ -34,6 +34,7 @@ class Categoriesfilms(models.Model):
     nom = models.CharField(max_length=45, blank=True, null=True)
     descriptif = models.CharField(max_length=45, blank=True, null=True)
     film = models.ForeignKey(Films, on_delete=models.CASCADE, null="true")
+
     def __str__(self):
         return f"{self.nom}"
 

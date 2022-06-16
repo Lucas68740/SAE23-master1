@@ -21,7 +21,7 @@ def ajout(request):
             return HttpResponseRedirect("/Films_MCU/")
         else:
             return render(request,"Films_MCU/home.html",{"form": form})
-    else :
+    else:
         form = FilmsForm()
         id = ""
         return render(request,"Films_MCU/formu.html",{"form" : form, "id" : id})
@@ -71,7 +71,7 @@ def ajout2(request):
             return HttpResponseRedirect("/Films_MCU/")
         else:
             return render(request,"Films_MCU/home.html",{"form": form})
-    else :
+    else:
         form = SuperheroForm()
         id = ""
         return render(request,"Films_MCU/formu2.html",{"form" : form, "id" : id})
@@ -125,6 +125,7 @@ def categorie(request):
             submitted = True
 
     return render(request, 'Films_MCU/categorie.html', {'form': form})
+
 
 
 def ajout3(request):
