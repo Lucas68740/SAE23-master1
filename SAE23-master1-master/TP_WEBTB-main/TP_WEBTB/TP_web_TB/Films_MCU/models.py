@@ -1,3 +1,4 @@
+
 from django.db import models
 import django.utils.timezone
 
@@ -32,7 +33,7 @@ class Films(models.Model):
 class Categoriesfilms(models.Model):
     nom = models.CharField(max_length=45, blank=True, null=True)
     descriptif = models.CharField(max_length=45, blank=True, null=True)
-    film = models.ForeignKey(Categoriesfilms, models.DO_NOTHING,db_column='film',blank="true",null=True)
+    film = models.ForeignKey(Films, on_delete=models.CASCADE, null="true")
     def __str__(self):
         return f"{self.nom}"
 
@@ -41,4 +42,4 @@ class Categoriesfilms(models.Model):
 
     class Meta:
         managed = False
-        db_table = 'CategoriesFilms'
+        db_table = 'Categoriesfilms'

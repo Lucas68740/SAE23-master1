@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponseRedirect
 from . import models
 from .forms import FilmsForm
-from .forms import SuperheroForm, CategoriesForm
+from .forms import SuperheroForm, CategoriesfilmsForm
 from .models import Categoriesfilms
 
 # Create your views here.
@@ -33,7 +33,6 @@ def traitement(request):
         return HttpResponseRedirect("/Films_MCU/home")
     else:
         return render(request,"Films_MCU/formu.html",{"form": form})
-
 def affiche(request,id):
     film = models.Films.objects.get(pk=id)
     return render(request,"Films_MCU/affiche.html",{"film": film})
@@ -116,12 +115,12 @@ def delete2(request, id):
 def categorie(request):
     submitted = False
     if request.method == "POST":
-        form = CategoriesForm(request.POST, request.FILES)
+        form = CategoriesfilmsForm(request.POST, request.FILES)
         if form.is_valid():
             form.save()
             return HttpResponseRedirect("/")
     else:
-        form = CategoriesForm()
+        form = CategoriesfilmsForm()
         if 'submitted' in request.GET:
             submitted = True
 
