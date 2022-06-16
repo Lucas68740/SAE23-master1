@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2b7b480-02d2-4761-98dc-bd6a0817f531" name="Changes" comment="Cela ne marche pas">
+    <list default="true" id="c2b7b480-02d2-4761-98dc-bd6a0817f531" name="Changes" comment="prendre la version maintenant">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SAE23-master1-master/TP_WEBTB-main/TP_WEBTB/TP_web_TB/Films_MCU/templates/Films_MCU/affiche.html" beforeDir="false" afterPath="$PROJECT_DIR$/SAE23-master1-master/TP_WEBTB-main/TP_WEBTB/TP_web_TB/Films_MCU/templates/Films_MCU/affiche.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SAE23-master1-master/TP_WEBTB-main/TP_WEBTB/TP_web_TB/Films_MCU/templates/Films_MCU/affiche3.html" beforeDir="false" afterPath="$PROJECT_DIR$/SAE23-master1-master/TP_WEBTB-main/TP_WEBTB/TP_web_TB/Films_MCU/templates/Films_MCU/affiche3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SAE23-master1-master/TP_WEBTB-main/TP_WEBTB/TP_web_TB/django-server" beforeDir="false" afterPath="$PROJECT_DIR$/SAE23-master1-master/TP_WEBTB-main/TP_WEBTB/TP_web_TB/django-server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SAE23-master1-master/TP_WEBTB-main/TP_WEBTB/TP_web_TB/Films_MCU/templates/Films_MCU/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/SAE23-master1-master/TP_WEBTB-main/TP_WEBTB/TP_web_TB/Films_MCU/templates/Films_MCU/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +90,21 @@
       <option name="project" value="LOCAL" />
       <updated>1655218327453</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Cela ne marche pas">
+      <created>1655377552495</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1655377552495</updated>
+    </task>
+    <task id="LOCAL-00005" summary="prendre la version maintenant">
+      <created>1655377597519</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1655377597519</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,6 +132,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ceci est un commit de test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ceci est un commit de test" />
+    <MESSAGE value="Cela ne marche pas" />
+    <MESSAGE value="prendre la version maintenant" />
+    <option name="LAST_COMMIT_MESSAGE" value="prendre la version maintenant" />
   </component>
 </project>
