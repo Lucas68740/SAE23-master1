@@ -24,10 +24,10 @@ class SuperheroForm(ModelForm):
             'createur':_('Le nom du createur du superHero'),
             'acteurs': _('Le nom des acteurs ayant incarné ce superHero:'),
             'super_pouvoir':_("Le(s) performance(s) de l'acteur"),
-            'description':_('Description sur cette acteur:')
+            'description':_('Description sur cette acteur:'),
         }
 
-class CategorieForm(ModelForm):
+class CategoriesfilmsForm(ModelForm):
     class Meta:
         model = models.Categoriesfilms
         fields = ('nom', 'descriptif')
@@ -35,4 +35,3 @@ class CategorieForm(ModelForm):
             'nom': _("Le nom de la catégorie"),
             'descriptif': _("Le descriptif de la catégorie"),
         }
-
