@@ -29,7 +29,7 @@ class SuperheroForm(ModelForm):
 
 class CategoriesForm(ModelForm):
     class Meta:
-        model = models.Categories
+        model = models.Categoriesfilms
         fields = ('nom', 'descriptif')
         labels = {
             'nom': _("Le nom de la catégorie"),

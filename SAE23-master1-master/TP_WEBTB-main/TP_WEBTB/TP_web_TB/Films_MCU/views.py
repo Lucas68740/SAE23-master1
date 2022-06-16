@@ -2,13 +2,14 @@ from django.shortcuts import render
 from django.http import HttpResponseRedirect
 from . import models
 from .forms import FilmsForm
-from .forms import SuperheroForm, CategoriesfilmsForm
+from .forms import SuperheroForm, CategoriesForm
+from .models import Categoriesfilms
 
 # Create your views here.
 
 def home(request):
     objects = list(models.Superhero.objects.all())
-    return render(request,"Films_MCU/home.html",{"objects":objects})
+    return render(request, 'Films_MCU/home.html',{"objects" : objects})
 
 #PREMIER CRUD
 
@@ -28,7 +29,7 @@ def ajout(request):
 def traitement(request):
     form = FilmsForm(request.POST,request.FILES)
     if form.is_valid():
-        film = form.save()
+        film = form.save(commit=False)
         return HttpResponseRedirect("/Films_MCU/home")
     else:
         return render(request,"Films_MCU/formu.html",{"form": form})

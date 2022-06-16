@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f00a97c1-8e1b-429b-aec5-a727c6605a40" name="Changes" comment="remerge" />
+    <list default="true" id="f00a97c1-8e1b-429b-aec5-a727c6605a40" name="Changes" comment="Ceci est un commit de test">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SAE23-master1-master/TP_WEBTB-main/TP_WEBTB/TP_web_TB/Films_MCU/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/SAE23-master1-master/TP_WEBTB-main/TP_WEBTB/TP_web_TB/Films_MCU/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SAE23-master1-master/TP_WEBTB-main/TP_WEBTB/TP_web_TB/django-server" beforeDir="false" afterPath="$PROJECT_DIR$/SAE23-master1-master/TP_WEBTB-main/TP_WEBTB/TP_web_TB/django-server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SAE23-master1-master/TP_WEBTB-main/TP_WEBTB/TP_web_TB/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/SAE23-master1-master/TP_WEBTB-main/TP_WEBTB/TP_web_TB/models.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="Git.Rebase.Settings">
-    <option name="NEW_BASE" value="main-beta" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -89,21 +91,7 @@
       <option name="project" value="LOCAL" />
       <updated>1655218327453</updated>
     </task>
-    <task id="LOCAL-00004" summary="Ca marche a moitié">
-      <created>1655274157864</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1655274157864</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Le crud 3 ne fonctionne pas">
-      <created>1655362765942</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1655362765942</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,7 +105,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="origin/main" />
                       </list>
                     </value>
                   </entry>
@@ -131,10 +119,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ceci est un commit de test" />
-    <MESSAGE value="Ca marche a moitié" />
-    <MESSAGE value="Le crud 3 ne fonctionne pas" />
-    <MESSAGE value="Le crud 3 ne fonction test" />
-    <MESSAGE value="remerge" />
-    <option name="LAST_COMMIT_MESSAGE" value="remerge" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ceci est un commit de test" />
   </component>
 </project>
