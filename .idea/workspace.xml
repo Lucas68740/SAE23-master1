@@ -1,24 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f00a97c1-8e1b-429b-aec5-a727c6605a40" name="Changes" comment="Ca marche a moitié">
+    <list default="true" id="f00a97c1-8e1b-429b-aec5-a727c6605a40" name="Changes" comment="remerge">
+      <change afterPath="$PROJECT_DIR$/SAE23-master1-master/TP_WEBTB-main/TP_WEBTB/TP_web_TB/Films_MCU/templates/static/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SAE23-master1-master/~$ADME_install_server.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SAE23-master1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SAE23-master1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SAE23-master1-master/TP_WEBTB-main/TP_WEBTB/TP_web_TB/Films_MCU/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/SAE23-master1-master/TP_WEBTB-main/TP_WEBTB/TP_web_TB/Films_MCU/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SAE23-master1-master/TP_WEBTB-main/TP_WEBTB/TP_web_TB/Films_MCU/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SAE23-master1-master/TP_WEBTB-main/TP_WEBTB/TP_web_TB/Films_MCU/migrations/0002_categoriesfilms_alter_films_date_and_more.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SAE23-master1-master/TP_WEBTB-main/TP_WEBTB/TP_web_TB/Films_MCU/migrations/0003_alter_films_date_alter_superhero_date.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SAE23-master1-master/TP_WEBTB-main/TP_WEBTB/TP_web_TB/Films_MCU/migrations/0004_alter_films_date_alter_superhero_date.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SAE23-master1-master/TP_WEBTB-main/TP_WEBTB/TP_web_TB/Films_MCU/migrations/0005_alter_films_date_alter_superhero_date.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SAE23-master1-master/TP_WEBTB-main/TP_WEBTB/TP_web_TB/Films_MCU/migrations/0006_alter_films_date_alter_superhero_date.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/SAE23-master1-master/TP_WEBTB-main/TP_WEBTB/TP_web_TB/Films_MCU/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/SAE23-master1-master/TP_WEBTB-main/TP_WEBTB/TP_web_TB/Films_MCU/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SAE23-master1-master/TP_WEBTB-main/TP_WEBTB/TP_web_TB/Films_MCU/templates/Films_MCU/formu.html" beforeDir="false" afterPath="$PROJECT_DIR$/SAE23-master1-master/TP_WEBTB-main/TP_WEBTB/TP_web_TB/Films_MCU/templates/Films_MCU/formu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SAE23-master1-master/TP_WEBTB-main/TP_WEBTB/TP_web_TB/Films_MCU/templates/Films_MCU/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/SAE23-master1-master/TP_WEBTB-main/TP_WEBTB/TP_web_TB/Films_MCU/templates/Films_MCU/main.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SAE23-master1-master/TP_WEBTB-main/TP_WEBTB/TP_web_TB/Films_MCU/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/SAE23-master1-master/TP_WEBTB-main/TP_WEBTB/TP_web_TB/Films_MCU/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SAE23-master1-master/TP_WEBTB-main/TP_WEBTB/TP_web_TB/Films_MCU/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/SAE23-master1-master/TP_WEBTB-main/TP_WEBTB/TP_web_TB/Films_MCU/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SAE23-master1-master/TP_WEBTB-main/TP_WEBTB/TP_web_TB/TP_web_TB/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/SAE23-master1-master/TP_WEBTB-main/TP_WEBTB/TP_web_TB/TP_web_TB/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SAE23-master1-master/TP_WEBTB-main/TP_WEBTB/TP_web_TB/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SAE23-master1-master/TP_WEBTB-main/TP_WEBTB/TP_web_TB/django-server" beforeDir="false" afterPath="$PROJECT_DIR$/SAE23-master1-master/TP_WEBTB-main/TP_WEBTB/TP_web_TB/django-server" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SAE23-master1-master/TP_WEBTB-main/TP_WEBTB/TP_web_TB/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/SAE23-master1-master/TP_WEBTB-main/TP_WEBTB/TP_web_TB/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SAE23-master1-master/~$ADME_install_server.docx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655274157864</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Le crud 3 ne fonctionne pas">
+      <created>1655362765942</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1655362765942</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -125,7 +126,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/main" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
@@ -140,6 +141,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ceci est un commit de test" />
     <MESSAGE value="Ca marche a moitié" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ca marche a moitié" />
+    <MESSAGE value="Le crud 3 ne fonctionne pas" />
+    <MESSAGE value="Le crud 3 ne fonction test" />
+    <MESSAGE value="remerge" />
+    <option name="LAST_COMMIT_MESSAGE" value="remerge" />
   </component>
 </project>
