@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f00a97c1-8e1b-429b-aec5-a727c6605a40" name="Changes" comment="Ce site marche c'est celui qui marche le crud 3 ne récupère pas les données" />
+    <list default="true" id="c2b7b480-02d2-4761-98dc-bd6a0817f531" name="Changes" comment="Cela ne marche pas">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SAE23-master1-master/TP_WEBTB-main/TP_WEBTB/TP_web_TB/Films_MCU/templates/Films_MCU/affiche.html" beforeDir="false" afterPath="$PROJECT_DIR$/SAE23-master1-master/TP_WEBTB-main/TP_WEBTB/TP_web_TB/Films_MCU/templates/Films_MCU/affiche.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SAE23-master1-master/TP_WEBTB-main/TP_WEBTB/TP_web_TB/Films_MCU/templates/Films_MCU/affiche3.html" beforeDir="false" afterPath="$PROJECT_DIR$/SAE23-master1-master/TP_WEBTB-main/TP_WEBTB/TP_web_TB/Films_MCU/templates/Films_MCU/affiche3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SAE23-master1-master/TP_WEBTB-main/TP_WEBTB/TP_web_TB/django-server" beforeDir="false" afterPath="$PROJECT_DIR$/SAE23-master1-master/TP_WEBTB-main/TP_WEBTB/TP_web_TB/django-server" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
