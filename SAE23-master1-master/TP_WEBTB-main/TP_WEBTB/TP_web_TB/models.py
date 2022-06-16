@@ -32,7 +32,7 @@ class FilmsMcuSuperhero(models.Model):
         managed = False
         db_table = 'Films_MCU_superhero'
 
-class Categor
+
 class AuthGroup(models.Model):
     name = models.CharField(unique=True, max_length=150)
 

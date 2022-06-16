@@ -2,14 +2,13 @@ from django.shortcuts import render
 from django.http import HttpResponseRedirect
 from . import models
 from .forms import FilmsForm
-from .forms import SuperheroForm, CategoriesForm
-from .models import Categoriesfilms
+from .forms import SuperheroForm, CategoriesfilmsForm
 
 # Create your views here.
 
 def home(request):
     objects = list(models.Superhero.objects.all())
-    return render(request, 'Films_MCU/home.html',{"objects" : objects})
+    return render(request,"Films_MCU/home.html",{"objects":objects})
 
 #PREMIER CRUD
 

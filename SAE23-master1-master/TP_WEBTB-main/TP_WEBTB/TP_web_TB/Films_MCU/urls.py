@@ -25,7 +25,7 @@ urlpatterns = [
     path("categorie/",views.categorie),
     path("traitement3/",views.categorie),
     path("traitementupdate3/", views.traitementupdate3),
-    path("affiche3/<int:id>", views.affiche3),
+    path("affiche3/<int:id>/", views.affiche3),
     path("update3/<int:id>", views.update3),
     path("delete3/<int:id>", views.delete3),
 ]
