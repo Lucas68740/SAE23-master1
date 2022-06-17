@@ -30,4 +30,7 @@ urlpatterns = [
     path("delete3/<int:id>", views.delete3),
 
     path('allcat/',views.allcat, name='allcat'),
+    path("categorie/", views.categorie),
+    path("categorie/<int:id>", views.categorie),
+
 ]
