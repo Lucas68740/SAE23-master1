@@ -15,7 +15,7 @@ def home(request):
 
 def ajout(request):
     if request.method == "POST":
-        form = FilmsForm(request)
+        form = FilmsForm(request.POST)
         if form.is_valid():
             films = form.save()
             return HttpResponseRedirect("/Films_MCU/")
@@ -23,8 +23,7 @@ def ajout(request):
             return render(request,"Films_MCU/home.html",{"form": form})
     else :
         form = FilmsForm()
-        id = ""
-        return render(request,"Films_MCU/formu.html",{"form" : form, "id" : id})
+        return render(request,"Films_MCU/formu.html",{"form" : form})
 
 def traitement(request):
     form = FilmsForm(request.POST,request.FILES)
@@ -173,3 +172,7 @@ def delete3(request, id):
     superhero = models.Superhero.objects.get(pk=id)
     superhero.delete()
     return HttpResponseRedirect("/Films_MCU/home")
+
+def allcat(request):
+    Categoriesfilms = models.Categoriesfilms.objects.all()
+    return render(request,"Films_MCU/allcat.html",{"Categoriesfilms":Categoriesfilms})

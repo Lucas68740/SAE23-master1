@@ -28,4 +28,6 @@ urlpatterns = [
     path("affiche3/<int:id>", views.affiche3),
     path("update3/<int:id>", views.update3),
     path("delete3/<int:id>", views.delete3),
+
+    path('allcat/',views.allcat, name='allcat'),
 ]

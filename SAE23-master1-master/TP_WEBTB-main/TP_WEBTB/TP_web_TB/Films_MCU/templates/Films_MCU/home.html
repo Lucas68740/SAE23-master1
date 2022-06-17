@@ -1,8 +1,12 @@
 {% extends "Films_MCU/main.html" %}
+{% load static %}
 {% block title %}
 FilmsMcu - Home
 {% endblock %}
 {% block content %}
+<head>
+    <link rel="stylesheet" type="text/css" href="{% static 'admin/css/home.css' %}" />
+</head>
     <h1> Bienvenue sur notre site de filmographie </h1>
     <h2> Tous les acteurs des films: </h2>
     <ol>

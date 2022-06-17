@@ -1,0 +1,15 @@
+{% extends "Films_MCU/main.html" %}
+{% block title %}
+FilmsMcu - Home
+{% endblock %}
+{% block content %}
+    <h1> Bienvenue sur notre site de filmographie </h1>
+    <h2> Toutes les catégories </h2>
+    <ol>
+        
+        {% for categoriesfilms in categoriesfilms %}
+            <li>{{categoriesfilms.nom}}</li>
+        {% endfor %}
+
+    </ol>
+{% endblock %}
